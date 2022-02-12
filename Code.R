@@ -41,7 +41,7 @@ geom_point(aes(size=n),pch=21,fill="yellow",colour="white")+
         plot.title=element_text(size=14, face="bold",colour="white",margin=margin(b=15)),
         plot.subtitle = element_text(size=12, colour="white",margin=margin(b=25)),
         plot.caption=element_text(size=10,colour="white",hjust=0,margin=margin(t=20)))+
-  labs(title="AFRICAN AMERICAN PILOTS WHO GRADUATED FROM 1942-1948",
+  labs(title="TUSKGEE AIRMEN WHO GRADUATED FROM 1942-1948",
        subtitle=str_wrap("The Tuskegee Airmen were the first African-American military aviators in the United States Armed Forces. During World War II, black Americans in many U.S. states were still subject to the Jim Crow laws and the American military was racially segregated, as was much of the federal government. The Tuskegee Airmen were subjected to discrimination, both within and outside of the army. The below visualization looks at the number of pilots under each type (liaison, single engine and twin engine) who graduated from 1942 to 1948",120),
        caption = "Data via Tidy Tuesday| Analysis and design: @annapurani93")+
   xlab("-------------YEAR---------------")+
